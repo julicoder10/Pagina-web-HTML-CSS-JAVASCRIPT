@@ -3,6 +3,10 @@ body{
   padding: 0;
   font-family: sans-serif;
 }
+.active {
+  background: #14151d !important;
+  color: #edeeef;
+}
 .icono{
   width: 48px;
   height: 48px;
@@ -35,9 +39,10 @@ body{
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 100px;
+  height: 120px;
   align-content: center;
   background: #0a043c;
+  text-align: center;
 }
 /*TUTORIALES*/
 .section-tutoriales{
@@ -76,5 +81,17 @@ body{
 }
 .tutorial h2{
   border-bottom: 2px solid #0a043c;
+  font-weight: 300;
+}
+/*FOOTER*/
+#footer {
+  bottom: 0;
+  height: 50px;
+  padding: 20px;
+  text-align: center;
+  background: #0a043c;
+  color: white;
+  align-items: center;
+  font-size: 20px;
   font-weight: 300;
 }
